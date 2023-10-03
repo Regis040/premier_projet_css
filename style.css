@@ -1,0 +1,83 @@
+#banner {
+    background-image: url(banner-1.jpg);
+    background-position: center;
+    color: aliceblue;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+h1 {
+     vertical-align: middle;
+}
+
+p {
+    text-align: center;
+}
+
+header p {
+    padding: 50px 700 px 50px 700px;
+}
+
+/* Style du bouton "En savoir plus" dans header*/
+.en-savoir-plus_header {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; /* Couleur de fond du bouton */
+    color: black; /* Couleur du texte */
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Style au survol du bouton */
+.en-savoir-plus_header:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+
+/* body>main*/
+
+main {
+    text-align: center;
+    padding: 50px 200px 50px 200px;
+}
+
+.gros_titre {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Style du bouton "En savoir plus" dans body*/
+.en-savoir-plus_body {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Style au survol du bouton */
+.en-savoir-plus_body:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+#footer {
+    background-image: url(banner-2.jpg);
+    background-position: center;
+    height: 200px;
+    color: antiquewhite;
+    background-size: cover;
+}
+
+
+#copyright {
+    margin: 0;
+    padding: 10px;
+    background-position: center;
+    background-color: darkslategray;
+    text-align: center;
+ }
