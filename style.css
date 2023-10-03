@@ -1,3 +1,20 @@
+
+/* Dégage la magin : peut utiliser * {} mais attention à la modif */
+body {
+    margin :0;
+}
+
+/* Ecriture - font */
+@font-face {
+    font-family: "roboto";
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* une image, placée au centre et qui prends tout le blaoc */
 #banner {
     background-image: url(banner-1.jpg);
     background-position: center;
@@ -14,13 +31,11 @@ h1 {
 
 p {
     text-align: center;
-}
-
-header p {
     padding: 50px 700 px 50px 700px;
 }
 
-/* Style du bouton "En savoir plus" dans header*/
+/* le bouton  */
+/* Style du bouton "En savoir plus" dans header* avec transition */
 .en-savoir-plus_header {
     display: inline-block;
     padding: 10px 20px;
@@ -28,11 +43,12 @@ header p {
     color: black; /* Couleur du texte */
     text-decoration: none;
     border-radius: 20px;
+    transition: all 1s ease-out;
 }
-
 /* Style au survol du bouton */
 .en-savoir-plus_header:hover {
     background-color: #0056b3; /* Couleur de fond au survol */
+    
 }
 
 
@@ -65,6 +81,8 @@ main {
     background-color: #0056b3; /* Couleur de fond au survol */
 }
 
+
+/* footer et copyright */
 #footer {
     background-image: url(banner-2.jpg);
     background-position: center;
@@ -72,8 +90,6 @@ main {
     color: antiquewhite;
     background-size: cover;
 }
-
-
 #copyright {
     margin: 0;
     padding: 10px;
